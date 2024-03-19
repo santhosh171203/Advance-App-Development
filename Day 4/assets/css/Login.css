@@ -1,0 +1,121 @@
+/* Login.css */
+.ani1
+{
+  overflow: hidden;
+}
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ 
+}
+
+/* Background shapes */
+.background1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shape:first-child {
+  top: -100px;
+  left: -100px;
+  width: 400px;
+  height: 400px;
+} 
+
+/* Login container */
+.login-container1 {
+  width: 400px;
+  margin-top: -1150px;
+  margin-right: -500px; /* Adjusted margin to position on the right side */
+  padding: 50px 35px;
+  background-color: rgba(255, 255, 255, 0.13);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  text-align: center;
+}
+
+/* Form elements */
+.form-group1 {
+  margin-bottom: 20px;
+  width: 100%;
+  color: #000000;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+
+input {
+  height: 50px;
+  width: calc(100% - 20px); /* Adjusted width to account for padding */
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  color: black;
+  border: 1px solid #ccc; /* Added border for consistency */
+}
+
+input::placeholder {
+  color: black;
+}
+
+/* Login button */
+button {
+  margin-top: 10px;
+  width: 30%;
+  background-color: #0c7d91;
+  color: #080710;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Error message */
+.error-message1 {
+  color: red;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Signup link */
+.signup-link {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #0f0505;
+}
+
+.signup-link a {
+  color: #050202;
+  text-decoration: underline;
+}
+
+.signup-link a:hover {
+  color: #0f0909;
+}
+
+/* Animation container */
+.ani1 {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}

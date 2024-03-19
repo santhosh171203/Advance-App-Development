@@ -1,0 +1,74 @@
+/* AdminLogin.css */
+
+/* Center the login form */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Form container styles */
+  .login-container-custom {
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 850px;
+    margin-top: 50px; /* Adjust the margin-top value */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Input and button container styles */
+  .form-container {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  /* Error message styles */
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  /* Signup link styles */
+  .signup-link {
+    margin-top: 10px;
+  }
+  
+  /* Button styles */
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Input styles */
+  .input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  /* Link styles */
+  .link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  

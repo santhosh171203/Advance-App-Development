@@ -1,0 +1,38 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}  */
+
+nav {
+    position: fixed; 
+    top: 0;
+    margin-left: -10px;
+    width: 100%; 
+    background-color: rgb(52, 121, 146); 
+    padding: 17px 60px; 
+    box-sizing: border-box; 
+}
+.navh{
+    margin-right: 800px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    
+}
+
+nav ul li {
+    margin: 0 20px; 
+    cursor: pointer;
+}
