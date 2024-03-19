@@ -1,0 +1,101 @@
+/* ViewServices1.css */
+
+.view-services-container1 {
+  width: 40%;
+  margin-top: 130px;
+  margin-left: 450px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.reegan1 {
+  margin-left: 200px;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.search-box1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.search-box1 input[type="text"] {
+  width: 70%;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-box1 button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.service-details1 { 
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+
+.service-details1 div {
+  margin-bottom: 10px;
+}
+
+.service-details1 label {
+  font-weight: bold;
+}
+
+.service-details1 span {
+  margin-left: 10px;
+}
+
+.buttons1 button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-button,
+.edit-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #dc3545;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-button:hover,
+.edit-button:hover {
+  background-color: #c82333;
+}
+
+.back-to-dashboard-button {
+  padding: 10px 20px;
+  margin-left: 150px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.back-to-dashboard-button:hover {
+  background-color: #0056b3;
+}

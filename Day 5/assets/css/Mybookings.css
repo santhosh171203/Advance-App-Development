@@ -1,0 +1,63 @@
+/* Mybookings.css */
+
+.my-bookings-container-custom {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 900px;
+    margin-top: 150px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .my-bookings-container-custom h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .my-bookings-container-custom table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .my-bookings-container-custom th,
+  .my-bookings-container-custom td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .my-bookings-container-custom th {
+    background-color: #f2f2f2;
+  }
+  
+  .my-bookings-container-custom tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .my-bookings-container-custom tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  .action-buttons-custom {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .action-buttons-custom button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .action-buttons-custom button:hover {
+    background-color: #0056b3;
+  }
+  
