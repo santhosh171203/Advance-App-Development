@@ -1,0 +1,111 @@
+.signup-container {
+  width: 100%; /* Adjust as needed */
+  max-width: 500px; /* Adjust as needed */
+  top: 50%;
+  right: 20%; /* Align to the right side */
+  transform: translateY(-50%);
+  position: absolute;
+  padding: 50px 25px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.signup-container h2 {
+  font-size: 1.9rem;
+  margin-top: 10px;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.form-group label {
+  color: #939398;
+  font-size: 0.8rem;
+  position: absolute;
+  top: -20px;
+  left: 10px;
+}
+
+.form-group input {
+  width: calc(100% - 20px); /* Adjusted width to account for padding */
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #efeff4;
+  font-size: 1rem;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8rem;
+  text-align: left;
+  margin-top: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #007AFF;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0047ab;
+}
+
+.reegan {
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: #333;
+  /* text-align: right; */
+}
+
+.reegan a {
+  color: #007AFF;
+
+  text-decoration: none;
+}
+
+.reegan a:hover {
+  text-decoration: underline;
+}
+.reegan2{
+  margin-top: 30px;
+}
+.use1
+{
+  margin-top: -40px;
+  
+}
+.use2
+{
+  margin-top: -10px;
+}
+.use3
+{
+  margin-top: 30px;
+}
+.use4
+{
+  margin-top: 30px;
+}
+.use5
+{
+  margin-top: 30px;
+}
+.use6
+{
+  margin-top: 30px;
+}
